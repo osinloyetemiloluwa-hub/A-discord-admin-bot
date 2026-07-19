@@ -1,7 +1,6 @@
 services:
   - type: web
     name: discord-co-admin-bot
-    runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
