@@ -2,7 +2,7 @@ services:
   - type: web
     name: CO-ADMIN-V2
     plan: free
-    runtime: python-3.11.9
+    runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
     envVars:
