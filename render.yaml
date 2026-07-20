@@ -9,7 +9,7 @@ services:
     envVars:
       - key: DISCORD_TOKEN
         sync: false
-      - key: GROQ_API_KEY
+      - key: GEMINI_API_KEY
         sync: false
       - key: OWNER_IDS
         sync: false
